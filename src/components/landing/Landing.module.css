@@ -1,0 +1,43 @@
+.container{
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 20px 10%;
+text-align: center;
+justify-content: space-between;
+margin-top: 0;
+}
+
+
+.title{
+  background: linear-gradient(180deg,#fff,#adadad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: max(36px,min(5vw,54px));
+    line-height: 1;
+    letter-spacing: -.06em;
+  --text-gradient: linear-gradient(180deg,#fff,#adadad);
+}
+.description{
+  background: linear-gradient(180deg,#fff,#adadad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 400;
+    line-height: 1.1;
+    /* letter-spacing: -.06em; */
+  --text-gradient: linear-gradient(180deg,#fff,#adadad);
+}
+.buttonContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.link{
+  font-size: 1.5rem;
+  background: #eba10e;
+  text-decoration: none;
+  padding:5px;
+  border-radius: 5px;
+  color: black;
+}
